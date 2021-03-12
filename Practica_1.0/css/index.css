@@ -1,0 +1,179 @@
+body{
+	
+	background-image: linear-gradient(ghostwhite, ghostwhite);
+
+}
+
+p, h2 {
+
+	font-weight: bold;
+
+	font-family: arial;
+
+	color: seashell;
+
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+
+}
+
+#sign_up, #log_in, #passwordMin{
+
+	color: whitesmoke;
+
+	cursor: pointer;
+
+}
+
+#log_in_box, #sign_up_box{
+
+	margin: 0;
+
+	position: absolute;
+
+	width: 500px;
+
+	padding: 10px;
+
+	left: 50%;
+
+	top: 50%;
+
+	transform: translate(-50%,-50%);
+
+	background-color: steelblue;
+
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.35);
+
+}
+
+#userP, #userI, #userILog, #password1P, #passwordILog, #password1I, #emailP, #emailI, #password2P, #password2I, #sign_up, #log_in, #termsBox{
+
+	width: 300px;
+
+	height: 20px;
+
+	margin-left: 50%;
+
+	transform: translateX(-50%);
+
+}
+
+#passwordMinInfo{
+
+	position: absolute;
+
+	width: 300px;
+
+	margin-left: 48.75%;
+
+	transform: translateX(-51.25%);
+
+	font-size: 70%;
+
+	padding: 5px;
+
+	background-color: lightsteelblue;
+
+	border-style: solid;
+
+	border-width: 1px;
+
+	border-color: darkslategray;
+
+	z-index: 5;
+
+}
+
+#sign_up, #log_in, #sign_up_title, #log_in_title{
+
+    text-align: center;
+
+}
+
+#sign_up_title, #log_in_title{
+
+	padding-bottom: 15px; 
+
+	border-bottom: solid;
+
+	border-color: whitesmoke;
+
+}
+
+#termsBox p, #termsBox input{
+
+	font-size: 0.73em;
+
+	display: inline-block;
+
+}
+
+#termsBox p{
+
+	position: absolute;
+
+	margin-top: 3px;
+
+}
+
+#termsLink, #termsCheck, #termsLink a{
+
+	cursor: pointer;
+
+	color: lightsteelblue;
+
+	text-decoration: none;
+
+}
+
+#submit_button, #submit_buttonLog{
+
+	width: 100px;
+
+	height: 25px;
+
+	font-weight: bold;
+
+	margin-left: 50%;
+
+	transform: translateX(-50%);
+
+	cursor: default;
+
+}
+
+#eyePsI, #eyePsII{
+
+	position: absolute;
+
+	width: 25px;
+
+	height: 25px;
+
+	margin-top: -25px; 
+
+	margin-left: 425px;
+
+	cursor: pointer;
+
+	z-index: 2;
+
+}
+
+#eyePsISw, #eyePsIISw{
+
+	position: absolute;
+
+	width: 25px;
+
+	height: 25px;
+
+	margin-top: -24px; 
+
+	margin-left: 426px; 
+
+	opacity: 0.75;
+
+	z-index: 1;
+
+}

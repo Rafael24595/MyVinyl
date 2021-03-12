@@ -1,0 +1,46 @@
+@import "vars";
+@import "social";
+
+body{
+
+    background-color: map-get($colorLight , 'background' );
+
+    color: $colorBackground;
+
+    .div{
+
+        font-weight: bold;
+
+    }
+
+}
+
+div{
+
+    @include size($sizeXS);
+
+}
+
+.bigDiv{
+
+        @include size($sizeM);
+
+}
+
+.bigDivActive{
+
+    @extend .bigDiv;
+
+    background-color: map-get($colorLight , 'background');
+
+}
+
+@for $i from 1 through 5 {
+
+        .windowState-#{$i}{
+
+            border: map-get($border, 'size') map-get($border, 'type') map-get($border, 'color');
+
+        }
+
+}

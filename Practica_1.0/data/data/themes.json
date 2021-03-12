@@ -1,0 +1,121 @@
+{
+    "ab": [
+        {
+            "id": "ab-1",
+            "name": "Heart and Sou",
+            "flag": "eng"
+        },
+        {
+            "id": "ab-2",
+            "name": "Guilty",
+            "flag": "eng"
+        },
+        {
+            "id": "ab-3",
+            "name": "You`re My Everything",
+            "flag": "eng"
+        }
+    ],
+    "bh": [
+        {
+            "id": "bh-1",
+            "name": "Easy Living",
+            "flag": "eng"
+        },
+        {
+            "id": "bh-2",
+            "name": "Gloomy Sunday",
+            "flag": "eng"
+        },
+        {
+            "id": "bh-3",
+            "name": "Crazy He Calls Me",
+            "flag": "eng"
+        }
+    ],
+    "fw": [
+        {
+            "id": "fw-1",
+            "name": "I`m Gonna Sit",
+            "flag": "eng"
+        },
+        {
+            "id": "fw-2",
+            "name": "The Sheik of Araby",
+            "flag": "eng"
+        },
+        {
+            "id": "fw-3",
+            "name": "Everybody Loves",
+            "flag": "eng"
+        }
+    ],
+    "gm": [
+        {
+            "id": "gm-1",
+            "name": "My Heart Cries for You",
+            "flag": "eng"
+        },
+        {
+            "id": "gm-2",
+            "name": "Christopher Columbus",
+            "flag": "eng"
+        },
+        {
+            "id": "gm-3",
+            "name": "Sparrow on a Treetop",
+            "flag": "eng"
+        }
+    ],
+    "is": [
+        {
+            "id": "is-1",
+            "name": "A Lovely Way",
+            "flag": "eng"
+        },
+        {
+            "id": "is-2",
+            "name": "I Don`t Want to Set",
+            "flag": "eng"
+        },
+        {
+            "id": "is-3",
+            "name": "It`s All Over",
+            "flag": "eng"
+        }
+    ],
+    "m_x": [
+        {
+            "id": "m_x-1",
+            "name": "Bom",
+            "flag": "fcr"
+        },
+        {
+            "id": "m_x-2",
+            "name": "Ta ostatnia niedziela",
+            "flag": "pln"
+        },
+        {
+            "id": "m_x-3",
+            "name": "Maruzzella",
+            "flag": "itl"
+        }
+    ],
+    "pl": [
+        {
+            "id": "pl-1",
+            "name": "Johnny Guitar",
+            "flag": "eng"
+        },
+        {
+            "id": "pl-2",
+            "name": "He`s a Tramp",
+            "flag": "eng"
+        },
+        {
+            "id": "pl-3",
+            "name": "Black Coffee",
+            "flag": "eng"
+        }
+    ]
+}

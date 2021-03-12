@@ -1,0 +1,67 @@
+#notificationWindow{
+
+	position: absolute;
+
+	max-width: 400px;
+
+	opacity: 0;
+
+	left: 50%;
+
+	top: -5%;
+
+	font-weight: bold;
+
+	transform: translateX(-50%);
+
+	background-color: steelblue;
+
+	border: 1px solid dimgray;
+
+	box-shadow: 5px 5px 10px black;
+
+	transition: 1s;
+
+	z-index: 999;
+
+}
+
+#notificationWindow.active{
+
+	position: fixed;
+
+	top: 5%;
+
+	opacity: 1;
+
+	transition: 0.5s;
+
+}
+
+#notificationWindow p{
+
+	margin: 20px;
+
+	padding: 10px;
+
+	color: black;
+
+	text-shadow: none;
+
+	font-weight: normal;
+
+	background-color: peachpuff;
+
+}
+
+#notificationWindow.dark{
+
+	background-color: #404040;
+
+}
+
+#notificationWindow.dark p{
+
+	background-color: darkolivegreen;
+
+}

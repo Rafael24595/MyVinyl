@@ -1,0 +1,20 @@
+$colorLight: (background: red);
+$colorBackground: gray;
+$sizeXS: (height: 15px, width: 30);
+$sizeM: (height: 30px, width: 60);
+$border: (size: 2px, color: black, type: solid);
+$social: (twitter: blue, youtube: red, snapchat: yellow, instagram: pink);
+
+@mixin size($sizeValues) {
+    
+    height: map-get($sizeValues, 'height');
+
+    width: map-get($sizeValues, 'width');
+
+    &:hover{
+
+        transform: translate(-50%,-50%);
+
+    }
+
+}

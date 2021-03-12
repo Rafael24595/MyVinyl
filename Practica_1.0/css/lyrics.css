@@ -1,0 +1,45 @@
+/*@font-face {
+	font-family: writtem;
+	src: url(../font/typewriter.ttf);
+}*/
+.text{
+	text-align: center;
+	font-family: writtem;
+}
+.text img{
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.title{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.bars, .title, .title1{
+	width: 90%;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	background-color: #292929;
+	border-radius: 12px;
+	color: gray;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.3); 
+}
+.title1{
+	width: 80%;
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: gray; 
+}
+
+::-webkit-scrollbar-thumb {
+	background: #292929; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #3E3E3E; 
+}

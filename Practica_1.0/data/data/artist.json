@@ -1,0 +1,44 @@
+[
+    {
+        "id": "ab",
+        "name": "Al",
+        "surname": "Bowly",
+        "themeList": "ab"
+    },
+    {
+        "id": "bh",
+        "name": "Billie",
+        "surname": "Holliday",
+        "themeList": "bh"
+    },
+    {
+        "id": "fw",
+        "name": "Fats",
+        "surname": "Waller",
+        "themeList": "fw"
+    },
+    {
+        "id": "gm",
+        "name": "Guy",
+        "surname": "Mitchell",
+        "themeList": "gm"
+    },
+    {
+        "id": "is",
+        "name": "Ink",
+        "surname": "Spots",
+        "themeList": "is"
+    },
+    {
+        "id": "m_x",
+        "name": "Varios",
+        "surname": "",
+        "themeList": "m_x"
+    },
+    {
+        "id": "pl",
+        "name": "Peggy",
+        "surname": "Lee",
+        "themeList": "pl"
+    }
+]

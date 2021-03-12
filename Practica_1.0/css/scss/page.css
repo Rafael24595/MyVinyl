@@ -1,0 +1,69 @@
+.twitter {
+  background-color: blue;
+}
+
+.youtube {
+  background-color: red;
+}
+
+.snapchat {
+  background-color: yellow;
+}
+
+.instagram {
+  background-color: pink;
+}
+
+body {
+  background-color: red;
+  color: gray;
+}
+
+body .div {
+  font-weight: bold;
+}
+
+div {
+  height: 15px;
+  width: 30;
+}
+
+div:hover {
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.bigDiv, .bigDivActive {
+  height: 30px;
+  width: 60;
+}
+
+.bigDiv:hover, .bigDivActive:hover {
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.bigDivActive {
+  background-color: red;
+}
+
+.windowState-1 {
+  border: 2px solid black;
+}
+
+.windowState-2 {
+  border: 2px solid black;
+}
+
+.windowState-3 {
+  border: 2px solid black;
+}
+
+.windowState-4 {
+  border: 2px solid black;
+}
+
+.windowState-5 {
+  border: 2px solid black;
+}
+/*# sourceMappingURL=page.css.map */

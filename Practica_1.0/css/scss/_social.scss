@@ -1,0 +1,11 @@
+@import 'vars';
+
+@each $name, $color in $social{
+
+    .#{$name}{
+
+        background-color: $color;
+
+    }
+
+}
